@@ -4,4 +4,16 @@ body {
 
 #logo {
     width: 40vw;
+    filter: drop-shadow(20px 5px 4px);
+}
+
+#logo:hover {
+    width: 35vw;
+    filter: drop-shadow(10px 2.5px 2px);
+}
+
+.parent-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
