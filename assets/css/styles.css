@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500:700&display=swap');
 
 body {
     background-color: #063daa;
@@ -10,7 +10,11 @@ body {
 
 #nav-bar {
     background-color: rgba(255,170,0,1);
-    height: 7vh;
+    height: 4vh;
+    font-weight: bold;
+    justify-content: center;
+    padding-top: 1vh;
+    padding-left: 1vh;
 }
 
 #logo {
