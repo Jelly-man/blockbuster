@@ -1,5 +1,12 @@
 body {
     background-color: #063daa;
+    padding: 0;
+    margin: 0;
+}
+
+#nav-bar {
+    background-color: rgba(175,170,163, 0.8);
+    height: 7vh;
 }
 
 #logo {
