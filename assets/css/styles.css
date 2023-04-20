@@ -4,12 +4,14 @@ body {
 
 #logo {
     width: 40vw;
-    filter: drop-shadow(20px 5px 4px);
+    filter: drop-shadow(0px 0px 20px);
+    padding-top: 10vh;
+
 }
 
 #logo:hover {
     width: 35vw;
-    filter: drop-shadow(10px 2.5px 2px);
+    filter: drop-shadow(0px 0px 40px);
 }
 
 .parent-div {
