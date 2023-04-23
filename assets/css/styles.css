@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500:700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;700&display=swap');
 
 body {
     background-color: #063daa;
@@ -52,6 +52,7 @@ body {
     margin-top: 10px;
     width: 6em;
     filter: drop-shadow(1px 1px 5px rgba(23,25,27,0.8));
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 .form-text {
