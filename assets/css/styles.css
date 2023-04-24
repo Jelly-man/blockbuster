@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500:700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;700&display=swap');
 
 body {
     background-color: #063daa;
@@ -6,6 +6,7 @@ body {
     margin: 0;
     font-family: 'Chakra Petch', sans-serif;
     text-transform: uppercase;
+    color: rgba(255,170,0,1);
 }
 
 #nav-bar {
@@ -23,6 +24,7 @@ body {
     padding-top: 10vh;
     cursor: pointer;
     margin: 0 8px;
+    color: black;
 }
 
 #logo:hover {
@@ -55,9 +57,10 @@ body {
     margin-top: 10px;
     width: 6em;
     filter: drop-shadow(1px 1px 5px rgba(23,25,27,0.8));
-
+    font-family: 'Chakra Petch', sans-serif;
 }
-.search-text {
+
+.form-text {
     background-color:rgba(255,170,0,1);
     color: #063daa;
     font-size: large;
@@ -65,13 +68,24 @@ body {
     opacity: 100%;
     border-radius: 5px;
     text-indent: 5px;
+}
 
+.form-field {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 5px;
+    align-items: center;
+}
+
+.form-field label {
+    padding-right: 5px;
 }
 
 #logo-login {
     width: 35vw;
     filter: drop-shadow(0px 0px 20px);
     padding-top: 4vh;
+    color: black;
 }
 
 .login-img {
